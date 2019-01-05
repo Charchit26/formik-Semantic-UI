@@ -1,4 +1,4 @@
-# formik-SemanticField
+# formik-Semantic-UI
 
 I found that the very popular `Formik` (https://jaredpalmer.com/formik) library used to build and manage forms in React, is not compatible with Semantic UI (https://react.semantic-ui.com/).
 
