@@ -8,3 +8,9 @@ An example is also being worked on with associated tests using Enzyme and Jest
 
 If you're just starting with Formik, their documentation is quite informative. 
 Also, this article proved to be quite helpful for me -> https://medium.com/@rossbulat/formik-for-react-introduction-to-form-management-done-right-971889b40f9f
+
+Tried and tested on the following semantic components:
+  1. Input
+  2. Dropdown
+  3. TextArea
+  4. Checkbox
