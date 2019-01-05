@@ -18,9 +18,13 @@ export const SemanticField = ({component, ...fieldProps}) => (
                         checked: value,
                     }
                     : {
+                    //value needs to be set to something when we delete all the text from innput field, 
+                    //else we get a warning of changing a controlled field to uncontrolled.
                         value: value ? value : '',
                     }),
                 onChange: (e, {value: newValue, checked}) => {
+                    // If there is an `onChange` function passed as prop to the Semantic component then this will
+                    // make that function call.
                     if (typeof fieldProps.onChange === 'function') {
                         fieldProps.onChange(e, {value: newValue});
                     }
